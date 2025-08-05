@@ -1,3 +1,6 @@
+_context.Users
+            .FirstOrDefault(u => u.Username == user.Username && u.Password == user.Password);
+
 using Microsoft.Extensions.Configuration;
  public EmployeeService(IConfiguration configuration) {
 
